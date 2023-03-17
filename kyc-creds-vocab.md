@@ -21,5 +21,3 @@ Contact number linked
 # emailId
 
 Email ID linked
-
-
