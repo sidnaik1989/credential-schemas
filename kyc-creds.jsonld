@@ -1,0 +1,41 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "KYCCredential": {
+        "@id": "<placeholder>#KYCCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/sidnaik1989/credential-schemas/main/kyc-creds-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "firstName": {
+            "@id": "vocab:firstName",
+            "@type": "xsd:string"
+          },
+          "lastName": {
+            "@id": "vocab:lastName",
+            "@type": "xsd:string"
+          },
+          "dob": {
+            "@id": "vocab:dob",
+            "@type": "xsd:date"
+          },
+          "contactNo": {
+            "@id": "vocab:contactNo",
+            "@type": "xsd:string"
+          },
+          "emailId": {
+            "@id": "vocab:emailId",
+            "@type": "xsd:string"
+          },
+        }
+      }
+    }
+  ]
+}
