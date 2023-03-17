@@ -10,6 +10,10 @@ First name of the subject
 
 Family name of the subject
 
+# dob
+
+Date of birth of the subject
+
 # contactNo
 
 Contact number linked
