@@ -14,6 +14,10 @@
           "type": "@type",
           "vocab": "https://raw.githubusercontent.com/sidnaik1989/credential-schemas/main/kyc-creds-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "aadhaarId": {
+            "@id": "vocab:aadhaarId",
+            "@type": "xsd:string"
+          },
           "firstName": {
             "@id": "vocab:firstName",
             "@type": "xsd:string"
@@ -33,7 +37,7 @@
           "emailId": {
             "@id": "vocab:emailId",
             "@type": "xsd:string"
-          },
+          }
         }
       }
     }
