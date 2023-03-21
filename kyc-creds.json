@@ -104,7 +104,7 @@
         "dob": {
           "title": "Date of Birth",
           "type": "string",
-          "format": "date-time"
+          "format": "date"
         },
         "contactNo": {
           "title": "Contact number linked to Aadhaar ID",
